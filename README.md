@@ -67,7 +67,7 @@ the [PIP](https://pip.pypa.io/en/stable/) package manager.
 Install the project dependencies
 
 ```console
-$ python3.7 -m pip install --requirement requirements.txt
+python3.9 -m pip install --requirement requirements.txt
 ```
 
 ### Run the tests
@@ -75,7 +75,7 @@ $ python3.7 -m pip install --requirement requirements.txt
 Run all tests
 
 ```console
-$ python3.7 -m unittest
+python3.9 -m unittest
 ```
 
 ### Run the application
@@ -83,7 +83,7 @@ $ python3.7 -m unittest
 Run the application which will be listening on port `5000`.
 
 ```console
-$ python3.7 src/app.py
+python3.9 src/app.py
 ```
 
 ## API
