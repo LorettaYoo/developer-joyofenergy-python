@@ -22,3 +22,4 @@ def recommend(smart_meter_id, limit=None):
     price_plan_service = PricePlanService(readings_repository)
     list_of_spend_against_price_plans = price_plan_service.get_list_of_spend_against_each_price_plan_for(smart_meter_id, limit=limit)
     return list_of_spend_against_price_plans
+

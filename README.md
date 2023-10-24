@@ -68,6 +68,7 @@ Install the project dependencies
 
 ```console
 python3.9 -m pip install --requirement requirements.txt
+$ python3.7 -m pip install --requirement requirement.txt
 ```
 
 ### Run the tests
